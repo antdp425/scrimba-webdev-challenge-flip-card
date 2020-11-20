@@ -1,6 +1,13 @@
 html, body {
    margin: 0;
    padding: 0;
+   background-color: midnightblue;
+}
+
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 /*
@@ -20,6 +27,25 @@ min- max- prefixes, ems and rems,
 
 /* Write your code here 👇 */
 
+.front{
+   padding-top: 10px;
+   color: white;
+   text-align: center;
+}
+
+.back{
+   padding-top: 10px;
+   display: none;
+   color: white;
+   text-align: center;
+}
+
+.card{
+   width: 400px;
+   height: 600px;
+   border-radius: 10px;
+   background-color: salmon;
+}
 
 /*
 
